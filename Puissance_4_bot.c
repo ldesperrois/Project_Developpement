@@ -791,8 +791,8 @@ int  strategie_2(Grille g,char PION){
     
     colonne=recherche_max(tab);
     
-    for(int caca=0;caca<NB_COLONNES;caca++){
-        printf(" %f ",tab[caca]);
+    for(int parcour=0;parcour<NB_COLONNES;parcour++){
+        printf(" %f ",tab[parcour]);
         }
     } 
     return colonne;
