@@ -49,7 +49,7 @@ def fusion(l):
         m=len(l)//2;           		#--On divise la taille pour découper la liste en deux
         lg=fusion(l[:m]);	   		#--On appelle récursivement ce découpage 
         ld=fusion(l[m:]);
-        return tri_fusion(ld,lg);  	#-- puis on cherche à re-fusionner les listes découper dans l'ordre en remontant dans la récursivité
+        return tri_fusion(ld,lg);  	#-- puis on cherche à re-fusionner les listes découpées dans l'ordre en remontant dans la récursivité
     
                     
 print(fusion([200,10,786543,999,6,3]));		#test du tri_fusiob
